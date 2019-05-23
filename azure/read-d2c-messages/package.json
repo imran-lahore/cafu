@@ -1,0 +1,20 @@
+{
+  "name": "read-d2c-messages",
+  "version": "1.0.0",
+  "description": "Back-end application in the IoT Hub quickstart device-to-cloud sample",
+  "main": "ReadDeviceToCloudMessages.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@azure/event-hubs": "^1.0.7",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "express-handlebars": "^3.1.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.10",
+    "ws": "^7.0.0"
+  }
+}
