@@ -81,7 +81,7 @@ $(document).ready(function() {
   });
   var $deviceViewContainer = $("[data-load-device-graphs]");
   if($("[data-load-device-graphs]").length) {
-    var ws = new WebSocket("ws://35.163.170.59:8000/");
+    var ws = new WebSocket("ws://104.42.250.15:8000/");
 
     ws.onopen = function() {
       console.log("connected!");
